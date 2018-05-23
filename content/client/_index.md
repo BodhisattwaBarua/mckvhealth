@@ -4,7 +4,7 @@ seo_title: MCKV HEALTH
 seo_keywords: MCKV HEALTH
 seo_description: MCKV HEALTH
 clients:
-  - image: /images/starthealth.jpg
+  - image: /images/1.jpg
     name: STAR HEALTH INSURANCE
   - image: /images/4.jpg
     name: ICICI LOMBARD
