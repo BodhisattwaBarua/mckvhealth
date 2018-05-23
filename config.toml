@@ -1,4 +1,4 @@
-baseURL = "https://decolux.netlify.com/"
+baseURL = "https://mckvhealth.netlify.com/"
 languageCode = "en-us"
 title = "MCKVHEALTH"
 theme = "sm-mckvhealth"
