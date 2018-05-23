@@ -1,0 +1,10 @@
+services:
+  - name: ECG
+    image: images/ecg.jpg
+    link: "/services/ecg"
+  - name: ECHO
+    image: images/eeg.jpg
+    link: "/services/echo"
+  - name: USG
+    image: images/emg.jpg
+    link: "/services/usg"

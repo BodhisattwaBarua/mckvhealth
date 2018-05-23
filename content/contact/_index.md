@@ -1,18 +1,16 @@
 ---
 title: Contact
-seo_title: "DECOLUX"
-seo_keywords: "DECOLUX"
-seo_description: "DECOLUX"
-google_map_coordinates: '22.5359443,88.38142770000002'
+seo_title: "MCKV HEALTH"
+seo_keywords: "MCKV HEALTH"
+seo_description: "MCKV HEALTH"
+google_map_coordinates: '22.6202562,88.3482947'
 featured_image: images/68.jpg
-business_name: DECOLUX LIGHTING
-business_location: KOLKATA OFFICE
+business_name: MCKV HEALTH & MEDICARE PVT LTD
 address: |-
-  86B/2, Topsia Road (S), 
-  Kolkata - 700 046.
-phone : +91 33 6565 0099 
-mobile : +91 99031 44886
-email : mps@decoluxlighting.com , sales@decoluxlighting.com
-head_office: 119, Cotton Street, Kolkata - 700 007. 
+  Laxmi Niketan 
+  Kolkata - 700 046.1st Floor
+  243 G T Road (N)
+  Liluah Howrah – 711204
+phone : +91 332654 8604/05 
+email : mckvhealth01@gmail.com
 ---
-
