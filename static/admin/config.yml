@@ -46,17 +46,7 @@ collections:
           name: gallery
           widget: list
           fields:
-            - {label: Image, name: image, widget: image}
-    - label: "Company Profile"
-      name: "company profile"
-      file: "content/companyprofile/_index.md"
-      fields:
-        - {label: Title, name: title, widget: string}
-        - {label: Seo Title, name: seo_title, widget: string, required: false}
-        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
-        - {label: Seo Description, name: seo_description, widget: text, required: false}
-        - {label: Featured Image, name: featured_image, widget: image}
-        - {label: Content, name: body, widget: markdown}              
+            - {label: Image, name: image, widget: image}            
     - label: "Contact Page"
       name: "contact"
       file: "content/contact/_index.md"
