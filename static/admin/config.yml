@@ -4,17 +4,20 @@ backend:
 media_folder: "static/images"
 public_folder: "/images"
 collections:
-- label: "ECG"
-  name: "ecg"
-  folder: "content/services/ecg"
-  create: true
-  fields:
-    - {label: Title, name: title, widget: string}
-    - {label: Seo Title, name: seo_title, widget: string, required: false}
-    - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
-    - {label: Seo Description, name: seo_description, widget: text, required: false}
-    - {label: Featured Image, name: featured_image, widget: image}
-    - {label: Description, name: description, widget: text}
+- label: "Services Category"
+  name: "services category"
+  files:
+    - label: "ECG"
+      name: "ecg"
+      file: "content/services/ecg/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Type, name: type, widget: "hidden", default: "services_category"}
+        - {label: Content, name: body, widget: markdown}
 - label: "Pages"
   name:  "pages"
   files:
