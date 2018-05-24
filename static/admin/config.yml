@@ -46,7 +46,27 @@ collections:
         - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
         - {label: Seo Description, name: seo_description, widget: text, required: false}
         - {label: Featured Image, name: featured_image, widget: image}
-        - {label: Content, name: body, widget: markdown}    
+        - {label: Content, name: body, widget: markdown}
+    - label: "Offer"
+      name: "offer"
+      file: "content/offer/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}
+    - label: "Project_Tieup"
+      name: "project_tieup"
+      file: "content/project_tieup/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Featured Image, name: featured_image, widget: image}
+        - {label: Content, name: body, widget: markdown}             
     - label: "Gallery"
       name: "gallery"
       file: "content/gallery/_index.md"
@@ -59,7 +79,21 @@ collections:
           name: gallery
           widget: list
           fields:
-            - {label: Image, name: image, widget: image}            
+            - {label: Image, name: image, widget: image}
+    - label: "Client"
+      name: "client"
+      file: "content/client/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - label: Clients
+          name: clients
+          widget: list
+          fields:
+            - {label: Image, name: image, widget: image} 
+            - {label: Name, name: name, widget: string}           
     - label: "Contact Page"
       name: "contact"
       file: "content/contact/_index.md"
