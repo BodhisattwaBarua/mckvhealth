@@ -18,6 +18,17 @@ collections:
         - {label: Featured Image, name: featured_image, widget: image}
         - {label: Type, name: type, widget: "hidden", default: "services_category"}
         - {label: Content, name: body, widget: markdown}
+- label: "Services"
+  name: "services"
+  folder: "content/services"
+  create: true
+  fields:
+    - {label: Title, name: title, widget: string}
+    - {label: Seo Title, name: seo_title, widget: string, required: false}
+    - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+    - {label: Seo Description, name: seo_description, widget: text, required: false}
+    - {label: Featured Image, name: featured_image, widget: image}
+    - {label: Content, name: body, widget: markdown}
 - label: "Pages"
   name:  "pages"
   files:
