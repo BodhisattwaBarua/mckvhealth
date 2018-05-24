@@ -4,25 +4,24 @@ seo_keywords: MCKV HEALTH
 seo_description: MCKV HEALTH
 featured_image: images/product_two.jpg
 ---
-<ul>
-<li>Complete Haemogram</li>
-<li>Blood grouping & Rh Typing</li>
-<li>Sugar Fasting & Post Prandial</li>
-<li>Urea and Creatinine</li>
-<li>Uric Acid</li>
-<li>Liver Function Test</li>
-<li>Lipid Profile</li>
-<li>Urine Routine Examination</li>
-<li>Stool Routine Examination</li>
-<li>X-Ray of Chest PA view</li>
-<li>ECG</li>
-<li>TMT</li>
-<li>USG of Whole Abdomen</li>
-<li>Thyroid Profile</li>
-<li>Physician’s Consultation</li>
-<li>Dietician’s Advice</li>
-<li>Lifestyle Counseling</li>
-<li>Physician’s Consultation</li>
-</ul>
+
+1. Complete Haemogram
+2. Blood grouping & Rh Typing
+3. Sugar Fasting & Post Prandial
+4. Urea and Creatinine
+5. Uric Acid
+6. Liver Function Test
+7. Lipid Profile
+8. Urine Routine Examination
+9. Stool Routine Examination
+10. X-Ray of Chest PA view
+11. ECG
+12. TMT
+13. USG of Whole Abdomen
+14. Thyroid Profile
+15. Physician’s Consultation
+16. Dietician’s Advice
+17. Lifestyle Counseling
+18. Physician’s Consultation
 
 

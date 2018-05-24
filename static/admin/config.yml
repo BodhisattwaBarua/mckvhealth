@@ -17,6 +17,32 @@ collections:
     - {label: Featured Image, name: featured_image, widget: image}
     - {label: Order, name: order, widget: number, required: false}
     - {label: Content, name: body, widget: markdown}
+- label: "Departments"
+  name: "departments"
+  folder: "content/departments"
+  filter: {field: "type", value: "departments"}
+  create: true
+  fields:
+    - {label: Title, name: title, widget: string}
+    - {label: Seo Title, name: seo_title, widget: string, required: false}
+    - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+    - {label: Seo Description, name: seo_description, widget: text, required: false}
+    - {label: Featured Image, name: featured_image, widget: image}
+    - {label: Order, name: order, widget: number, required: false}
+    - {label: Content, name: body, widget: markdown}
+- label: "Packages"
+  name: "packages"
+  folder: "content/packages"
+  filter: {field: "type", value: "packages"}
+  create: true
+  fields:
+    - {label: Title, name: title, widget: string}
+    - {label: Seo Title, name: seo_title, widget: string, required: false}
+    - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+    - {label: Seo Description, name: seo_description, widget: text, required: false}
+    - {label: Featured Image, name: featured_image, widget: image}
+    - {label: Order, name: order, widget: number, required: false}
+    - {label: Content, name: body, widget: markdown}        
 - label: "Pages"
   name:  "pages"
   files:
@@ -110,3 +136,15 @@ collections:
         - {label: Telephone No, name: phone, widget: string}
         - {label: Email, name: email, widget: string}
         - {label: Head Office, name: head_office, widget: string}
+    - label: "Appointment"
+      name: "appointment"
+      file: "content/appointment/_index.md"
+      fields:
+        - {label: Title, name: title, widget: string}
+        - {label: Seo Title, name: seo_title, widget: string, required: false}
+        - {label: Seo Keywords, name: seo_keywords, widget: string, required: false}
+        - {label: Seo Description, name: seo_description, widget: text, required: false}
+        - {label: Tile_1, name: title_1, widget: string}
+        - {label: description, name: description, widget: text}
+        - {label: Title_2, name: title_2, widget: string}
+        - {label: Email, name: email, widget: string}
